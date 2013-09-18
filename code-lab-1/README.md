@@ -2,6 +2,7 @@
 code-lab-0
 =====
 Install Node.JS
+
 NOTE: instructions on a mac, for other os reer to link in BIB 
 
 
