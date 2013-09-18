@@ -2,22 +2,20 @@
 code-lab-0
 =====
 Install Node.JS
-
-NOTE: instructions on a mac, for other os reer to link in BIB 
-
+**NOTE: instructions on a mac, for other os reer to link in BIB** 
 
 STEP 0 -  You need homebrew . More info http://brew.sh
 
-< Terminal >
+<Terminal>
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 <enter> 
 
 STEP 1 - install node
-< Terminal >
+<Terminal>
 brew install node <enter>
 
 STEP 2 - Play around the node REPL shell
-**Terminal**
+<Terminal>
 node <enter>
 'hello world!' <enter>
 a = 10*10 <enter>
@@ -28,12 +26,13 @@ fib(5) <enter>
 fib(10) <enter>
 
 STEP 3 - Exit Node shell
+<Terminal>
 <ctrl+c> <ctrl+c>
 
 STEP 4 - Running Server-side JS with Node.JS
 -Run 'Hello world' from a js file
 -Run fib code from a js file
-**Terminal**
+<Terminal>
 node hello.js <enter>
 node fib.js <enter>
 
