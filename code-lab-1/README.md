@@ -2,7 +2,7 @@
 code-lab-0
 =====
 Install Node.JS
-**instructions on a mac, for other os reer to link in BIB**
+** instructions on a mac, for other os reer to link in BIB **
 
 STEP 0 -  You need homebrew . More info http://brew.sh
 **Terminal**
