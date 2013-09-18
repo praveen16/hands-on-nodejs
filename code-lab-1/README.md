@@ -2,15 +2,16 @@
 code-lab-0
 =====
 Install Node.JS
-** instructions on a mac, for other os reer to link in BIB **
+NOTE: instructions on a mac, for other os reer to link in BIB 
+
 
 STEP 0 -  You need homebrew . More info http://brew.sh
-**Terminal**
+< Terminal >
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 <enter> 
 
 STEP 1 - install node
-**Terminal**
+< Terminal >
 brew install node <enter>
 
 STEP 2 - Play around the node REPL shell
