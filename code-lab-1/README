@@ -36,6 +36,21 @@ STEP 4 - Running Server-side JS with Node.JS
 node hello.js <enter>
 node fib.js <enter>
 
+STEP 5 - Serving a Web request
+<Terminal>
+node hello_http.js <enter>
+
+<Terminal>
+curl localhost:8080
+<Browser>
+http://localhost:8080
+
+FURTHER READING
+-Ryan Dahl presentation "Intro to NodeJS"
+http://www.youtube.com/watch?v=jo_B4LTHi3I
+-Beginners Guide
+http://nodeguide.com/beginner.html#the-interactive-node.js-shell
+
 ====
 BiB
 ====
