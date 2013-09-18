@@ -1,3 +1,67 @@
 =====
 code-lab-2
-=====
+===== 
+1. Create web app with Express
+2. A simple Jade Template
+3. Serve Simple Request
+4. How does this all work
+5. develop-build-deploy with nodemon
+6. serving REST Endpoint
+ 
+STEP 0 - Install Express [install globally]
+<Terminal>
+npm install express -g <enter>
+express version <enter>
+
+STEP 1 - Create web app with Express
+<Terminal>
+express WeatherApp <enter>
+
+-dont forget to install dependencies:
+<Terminal>
+cd WeatherApp <enter> 
+npm install <enter>
+
+-In future for more modules just do npm install <module-name> --save
+<Terminal>
+npm install request --save <enter>
+less package.json <enter>
+
+STEP 2 - Jade Template
+<Terminal>
+cd views <enter>
+less index.jade <enter>
+
+STEP 3 - Start Server
+<Terminal> in dir WeatherApp
+npm start <enter>
+<browser>
+localhost:3000/ 
+
+STEP 4 - How does it all work
+<Terminal> in dir WeatherApp
+vim app.js <enter>
+
+STEP 5 - Code build and deploy with nodemonJS
+<Terminal>
+npm install nodemon -g <enter>
+
+- Start server using nodemon
+<Terminal> in dir WeatherApp
+nodemon app.js 3000 <enter>
+
+<browser>
+localhost:3000/
+
+STEP 6 - Serving a REST API
+<Terminal> in dir WeatherApp
+vim routes/user.js <enter>
+
+<browser>
+localhost:3000/users 
+
+====
+BIB
+====
+https://github.com/mikeal/request
+https://github.com/remy/nodemon

@@ -5,6 +5,7 @@ code-lab-1
 1. Install Node.JS
 2. Fun with NODE Shell
 3. Simple web server
+4. npm & Dependency Management
 
 STEP 0 -  You need homebrew . More info http://brew.sh
 
@@ -27,18 +28,18 @@ fib(2) <enter>
 fib(5) <enter>
 fib(10) <enter>
 
-STEP 3 - Exit Node shell
+-Exit Node shell
 <Terminal>
 <ctrl+c> <ctrl+c>
 
-STEP 4 - Running Server-side JS with Node.JS
+STEP 3 - Running Server-side JS with Node.JS
 -Run 'Hello world' from a js file
 -Run fib code from a js file
 <Terminal>
 node hello.js <enter>
 node fib.js <enter>
 
-STEP 5 - Serving a Web request
+STEP 4 - Serving a Web request
 <Terminal>
 node hello_http.js <enter>
 
@@ -47,13 +48,22 @@ curl localhost:8080
 <Browser>
 http://localhost:8080
 
+STEP 5 - NPM
+<Terminal>
+npm version
+vim package.json
+
+====
 FURTHER READING
+====
 -Ryan Dahl presentation "Intro to NodeJS"
 http://www.youtube.com/watch?v=jo_B4LTHi3I
 -Beginners Guide
 http://nodeguide.com/beginner.html#the-interactive-node.js-shell
+-http://javascriptplayground.com/blog/2012/04/beginning-node-js-express-tutorial/
 
 ====
 BiB
 ====
 http://howtonode.org/how-to-install-nodejs
+https://npmjs.org/
