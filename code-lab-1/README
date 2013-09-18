@@ -1,8 +1,10 @@
 =====
-code-lab-0
+code-lab-1
 =====
-Install Node.JS
-**NOTE: instructions on a mac, for other os reer to link in BIB** 
+**NOTE: instructions on a mac, for other os refer to link in BIB** 
+1. Install Node.JS
+2. Fun with NODE Shell
+3. Simple web server
 
 STEP 0 -  You need homebrew . More info http://brew.sh
 
