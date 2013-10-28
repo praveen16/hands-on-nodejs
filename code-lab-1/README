@@ -22,7 +22,7 @@ STEP 2 - Play around the node REPL shell
 node <enter>
 'hello world!' <enter>
 a = 10*10 <enter>
-function fib(n){if(n<2){return 1;}else{ return fib(n-2)+fib(n-2);}} <enter>
+function fib(n){if(n<2){return n;}else{ return fib(n-2)+fib(n-1);}} <enter>
 fib(0) <enter>
 fib(2) <enter>
 fib(5) <enter>
