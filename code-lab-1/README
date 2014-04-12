@@ -7,11 +7,23 @@ code-lab-1
 3. Simple web server
 4. npm & Dependency Management
 
-STEP 0 -  You need homebrew . More info http://brew.sh
+STEP 0 -  
+0A. Install xcode 
+- Go to App store and install xcode.
 
+0B. Install xcode command line tools.
+- xcode installation does not install command line tools. After xcode is installed, 
+follow the instructions to install command line tools.
+<Terminal>
+xcode-select --install
+<enter>
+- A prompt appears for command line tool installation. Follow onscreen instructions.
+
+0C.You need homebrew . More info http://brew.sh
 <Terminal>
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 <enter> 
+
 
 STEP 1 - install node
 <Terminal>
