@@ -10,7 +10,8 @@ code-lab-2
  
 STEP 0 - Install Express [install globally]
 <Terminal>
-npm install express -g <enter>
+/*For express 2.x */npm install express -g <enter>
+/*For express 3.x+ */npm install -g express-generator <enter>
 express version <enter>
 
 STEP 1 - Create web app with Express
